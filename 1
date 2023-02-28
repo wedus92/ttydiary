@@ -1,0 +1,8 @@
+#!/bin/bash
+# diadopsi dari ~/myfile.sh
+echo "`date +[%d-%B-%Y]-%H.%M.%S`"
+echo "hello, what's up dude?"
+read issu
+echo "==================================================================" >> ~/kepada.txt
+echo && echo -e "$issu" >> ~/kepada.txt
+echo "diketik pada : `date +[%d-%B-%Y]-%H.%M.%S`" >> ~/kepada.txt
